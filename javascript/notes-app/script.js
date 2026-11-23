@@ -2,7 +2,7 @@ let btn = document.querySelector("#btn");
 let notesList = document.querySelector(".notes");
 
 
-let note =JSON.parse(localStorage.getItem("note") || []);
+let note = JSON.parse(localStorage.getItem("note")) || []
 
 function saveNotes(){
 localStorage.setItem("note",JSON.stringify(note));
