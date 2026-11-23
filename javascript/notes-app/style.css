@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 100vw;
+   min-height:100vh ;
+   background: linear-gradient(200deg, rgb(59, 34, 224),rgb(128, 13, 128));
+   color: white;
+}
+.title{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+button{
+     margin-left: 100px;
+     background-color: rgb(163, 10, 187);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.notes img{
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.input-box{
+     position: relative;
+     width: 100%;
+     max-width: 500px;
+     min-height: 150px;
+     background-color: white;
+      margin-left: 100px;
+      margin-top: 20px;
+      color: black;
+}
